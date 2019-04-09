@@ -16,14 +16,13 @@
     </dependency>
  </dependencies>
   
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>artifactory-1-vm-releases</name>
-        <url>https://35.244.32.2/artifactory/libs-release</url>
-    </repository>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-1-vm-snapshots</name>
+        <url>http://35.244.32.2/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
-  
   
   
 </project>
